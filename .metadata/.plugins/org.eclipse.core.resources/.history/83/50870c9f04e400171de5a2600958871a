@@ -1,0 +1,20 @@
+package base;
+
+import utility.XlsReader;
+
+public class Base 
+{
+	public XlsReader loginfunctionality_xls;
+	public XlsReader privacymodule_xls;
+	public XlsReader settingmodule_xls;
+	public XlsReader suite_xls;
+	public void initialize() throws Exception
+	{
+	/*loginfunctionality_xls=new XlsReader(System.getProperty("user.dir")+"\\src\\excelfiles\\Login Functionality.xlsx");
+	privacymodule_xls=new XlsReader(System.getProperty("user.dir")+"\\src\\excelfiles\\Privacy Module.xlsx");
+	settingmodule_xls=new XlsReader(System.getProperty("user.dir")+"\\src\\excelfiles\\Settings Module.xlsx");
+	suite_xls=new XlsReader(System.getProperty("user.dir")+"\\src\\excelfiles\\Suite.xlsx");
+	}*/
+	}
+	
+}
